@@ -1,0 +1,68 @@
+.font-24-bold {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.para-14 {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  line-height: 20px;
+}
+
+.text-black {
+  color: #1d1d1d;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.text-grey-6 {
+  color: #a2a2a2 !important;
+}
+
+@media screen and (max-width: 1366px) {
+  .content {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .content {
+    padding: 0;
+  }
+  .content hr {
+    border: 1px solid #b4b4b4;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn-round {
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.content {
+  padding: 0 10%;
+}
+
+.bg-secondary-blue {
+  background-color: #1e6fb0;
+}
+
+.arial {
+  font-family: 'Arial' !important;
+}
+
+.inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.text-capital {
+  text-transform: capitalize !important;
+}

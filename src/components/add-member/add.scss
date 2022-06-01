@@ -1,0 +1,20 @@
+@import '../../scss/main';
+
+.member {
+    width: 95%;
+    margin: auto;
+}
+
+.question {
+    font-size: 18px;
+    color: $text-black;
+}
+
+//add button
+
+.btn-add {
+    background-color: $mid-blue !important;
+    font-size: 16px !important;
+    font-family: 'Arial' !important;
+    font-weight: bold !important;
+}

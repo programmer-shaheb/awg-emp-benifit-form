@@ -1,0 +1,34 @@
+@import "variables";
+@import "typography";
+@import "responsive";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-round {
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.content {
+    padding: 0 10%;
+}
+
+.bg-secondary-blue {
+    background-color: $secondary-blue;
+}
+
+.arial {
+    font-family: 'Arial' !important;
+}
+
+.inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.text-capital {
+    text-transform: capitalize !important;
+}
+

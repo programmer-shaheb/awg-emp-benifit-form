@@ -1,0 +1,12 @@
+@import '../../scss/main';
+
+.child-wrapper {
+  padding: 2%;
+  margin-top: 10px;
+  background: $white 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px $shadow;
+}
+
+.outer-space {
+  padding: 2rem 5rem;
+}

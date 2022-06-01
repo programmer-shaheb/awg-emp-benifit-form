@@ -1,0 +1,14 @@
+@media screen and (max-width: 1366px) {
+  .content {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .content {
+    padding: 0;
+  }
+  .content hr {
+    border: 1px solid #b4b4b4;
+  }
+}

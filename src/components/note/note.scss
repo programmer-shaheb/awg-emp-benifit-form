@@ -1,0 +1,25 @@
+@import '../../scss/main';
+
+.note {
+    .note-text {
+        background-color: $grey-3;
+        color: $pink;
+        font-family: 'Arial';
+        font-style: italic;
+        font-size: 12px;
+        padding: 6px 10px;
+        border-radius: 6px;
+        border: 1px dashed $pink;
+    }
+
+    .icon {
+        color: $pink;
+
+        svg {
+            height: 30px;
+            width: 30px;
+            margin-right: -10px;
+            position: relative;
+        }
+    }
+}

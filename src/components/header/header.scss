@@ -1,0 +1,14 @@
+@import '../../scss/main';
+
+.logo {
+    img {
+        height: 120px;
+    }
+}
+
+.company-info {
+    h1{
+        color: $dark-blue;
+        font-family: 'Inter', sans-serif;
+    }
+}

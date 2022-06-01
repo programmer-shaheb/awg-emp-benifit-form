@@ -1,0 +1,94 @@
+@import '../../scss/main';
+
+.form {
+    .MuiOutlinedInput-root {
+        padding: 10px !important;
+    }
+
+    .MuiSvgIcon-root {
+        color: $secondary-blue !important;
+        height: 20px;
+        width: 20px;
+        padding: 6px 0 0;
+    }
+}
+
+.input-label {
+    color: $text-black;
+    font-family: 'Arial';
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+.lg-input {
+    div:first-child {
+        margin-bottom: 8px;
+    }
+}
+
+//table 
+
+.table {
+    .MuiTableCell-head, .light-blue-bg {
+        background-color: $light-blue;
+        padding: 10px !important;
+          color: $black;
+          font-size: 14px !important;
+          font-weight: bold !important;
+
+      tr, td {
+          text-align: center !important;
+          color: $black;
+          font-size: 14px !important;
+          font-weight: bold !important;
+      }
+    }
+
+    .MuiCheckbox-root {
+        padding: 3px !important;
+    }
+}
+
+//border none
+
+.border-btm-0 {
+    border-bottom: none !important;
+}
+
+.light-blue-bg{
+    background-color: $light-blue !important;
+}
+
+.add-border {
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+//inner table
+
+.inner-table {
+    tr, td {
+        padding: 5px !important;
+    }
+}
+
+.text-tbl-blue {
+    font-size: 14px !important;
+    color: $secondary-blue !important;
+    font-weight: bold !important;
+}
+
+.tb-pasding {
+    padding: 0 10px !important;
+}
+
+.MuiCheckbox-root {
+    padding: 3px;
+}
+
+.checkbox-border {
+    tr, td {
+        border-bottom: none !important;
+    }
+}

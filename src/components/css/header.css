@@ -1,0 +1,19 @@
+.font-24-bold {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  height: 120px;
+}
+
+.company-info h1 {
+  color: #0076be;
+  font-family: 'Inter', sans-serif;
+}

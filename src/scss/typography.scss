@@ -1,0 +1,78 @@
+
+@import "variables";
+
+.font-30-bold {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+}
+
+.font-24-bold {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.font-20-bold {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.para-18-regular {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.font-16-bold {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+}
+
+.para-14 {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  line-height: 20px;
+}
+
+.font-14-bold {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.text-black {
+    color: $text-black;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.text-grey-6 {
+  color: $grey-6 !important;
+}
+
+.text-primary {
+  color: $primary-blue;
+}
+
+.text-pink {
+  color: $pink;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-grey-7{
+  color: $grey-7;
+}
+
+//input 
+
+input::placeholder {
+  color: $grey-4 !important;
+}
+

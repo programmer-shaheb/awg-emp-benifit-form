@@ -1,0 +1,34 @@
+.font-30-bold {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+}
+
+.font-24-bold {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.para-20-regular {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.para-14 {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  line-height: 20px;
+}
+
+.text-black {
+  color: #1d1d1d;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.text-grey-6 {
+  color: #a2a2a2 !important;
+}

@@ -1,0 +1,99 @@
+
+@import '../../scss/main';
+
+.pink-table {
+    table {
+        font-size: 16px !important;
+        font-family: 'Arial' !important;
+    }
+    th {
+        background-color: $pink !important;
+        color: $white !important;
+        border: none !important;
+        font-size: 16px !important;
+        font-family: 'Arial' !important;
+        padding: 15px !important;
+    }
+
+    td {
+        background-color: $grey-3 !important;
+        border: 1px dashed $pink !important;
+        font-size: 16px !important;
+        font-family: 'Arial' !important;
+        color: $text-black !important;
+    }
+}
+
+.pink-table-normal{
+    table {
+        font-size: 16px !important;
+        font-family: 'Arial' !important;
+    }
+    th {
+        background-color: $pink !important;
+        color: $white !important;
+        border: none !important;
+        font-weight: bold !important;
+        font-size: 16px !important;
+        font-family: 'Arial' !important;
+        padding: 15px !important;
+    }
+
+    tr {
+        background-color: $grey-3 !important;
+        border: 1px dashed $pink !important;
+        font-size: 16px !important;
+        font-family: 'Arial' !important;
+        color: $text-black !important;
+    }
+}
+
+.btm-dashed {
+    border: 1px dashed $pink !important;
+}
+
+.width-85 {
+    width: 85%;
+    margin: auto;
+}
+
+//table list
+
+.examples {
+    .list-item {
+     font-size: 16px;
+     color: $text-black;
+     font-family: 'Arial' ;
+    }
+}
+
+.text-small {
+    font-size: 11px;
+}
+
+.footer-text {
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+
+//table footer
+
+.table-footer {
+    background-color: $table-footer;
+    position: sticky;
+    bottom: 0;
+}
+
+.inner-tbl {
+    padding: 0 !important;
+}
+
+.arrows {
+    display: grid;
+    position: absolute;
+    right: 0;
+
+    svg {
+        color: $secondary-blue;
+    }
+} // table arrows

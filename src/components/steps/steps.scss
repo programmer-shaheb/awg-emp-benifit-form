@@ -1,0 +1,45 @@
+@import '../../scss/main';
+
+.steppers {
+    .MuiStepLabel-label {
+    font-size: 16px !important;
+    font-family: 'Inter', sans-serif !important;
+    color: $grey-1 !important;
+    text-align: left !important;
+    font-weight: 600;
+  }
+
+  .MuiSvgIcon-root {
+    color: $grey-1 !important;
+  }
+
+  .Mui-active{
+    color: $primary-blue !important;
+
+    .MuiStepConnector-line {
+      border-color: $pink !important;
+    }
+  }
+
+  .Mui-completed {
+    color: $pink !important;
+
+    .MuiStepConnector-line {
+      border-color: $pink !important;
+    }
+  }
+
+  .MuiStepConnector-line {
+    border-top-width: 2px !important;
+    border-color: $grey-1 !important;
+  }
+
+  .MuiStepConnector-root {
+    left: calc(-50% + 12px) !important;
+    right: calc(50% + 12px) !important;
+  }
+
+  .MuiStepIcon-text {
+    fill: transparent;
+}
+}
